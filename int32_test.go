@@ -28,10 +28,10 @@ func TestInt32FromPtr(t *testing.T) {
 	n := int32(12345)
 	iptr := &n
 	i := Int32FromPtr(iptr)
-	assertInt32(t, i, "Int64FromPtr()")
+	assertInt32(t, i, "Int32FromPtr()")
 
 	null := Int32FromPtr(nil)
-	assertNullInt32(t, null, "Int64FromPtr(nil)")
+	assertNullInt32(t, null, "Int32FromPtr(nil)")
 }
 
 func TestUnmarshalInt32(t *testing.T) {

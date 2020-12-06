@@ -46,6 +46,11 @@ Marshals to JSON null if SQL source data is null. False input will not produce a
 
 Marshals to JSON null if SQL source data is null. Zero input will not produce a null Time.
 
+#### null.UUID
+
+Marshals to JSON null if SQL source data is null. Zero input will not produce a null UUID.
+
+
 ### zero package
 
 `import "github.com/yeetpay/null/zero"`
@@ -82,3 +87,6 @@ Will marshal to the zero time if null. Uses `time.Time`'s marshaler.
 
 ### License
 BSD
+
+### TODO:
+- add zero UUID

@@ -1,5 +1,5 @@
 ## null
-`import "gopkg.in/guregu/null.v4"`
+`import "github.com/yeetpay/null"`
 
 null is a library with reasonable options for dealing with nullable SQL and JSON values
 

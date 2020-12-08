@@ -1,4 +1,8 @@
-## null
+## null 
+
+![test](https://github.com/yeetpay/null/workflows/test/badge.svg)
+
+
 `import "github.com/yeetpay/null"`
 
 null is a library with reasonable options for dealing with nullable SQL and JSON values
